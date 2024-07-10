@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Wallpaper Manager",
+    "version": "1.0",
+    "description": "An extension to search, categorize, preview, set, and randomize new tab wallpapers.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon16.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://api.pexels.com/*"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "popup.html"
+    }
+}
